@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Outfit:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FCFCFC;
+    color: #0F0F0F;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Outfit', sans-serif; */
+}
+
+.container {
+    max-width:1200px;
+    padding:0 40px;
+    margin:0 auto;
+}
+
+/* ================================ NAVBAR ================================ */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    transition: .5s;
+}
+
+.background {
+    padding:20px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.03);
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-link {
+    font-size:18px;
+    color:#0F0F0F;
+    padding:0px;
+    margin-right: 40px;
+    text-decoration: none;
+    font-weight:500;
+}
+
+a.contact-us {
+    color:#fff;
+    text-decoration: none;
+    background-color: #0F0F0F;
+    border-radius:100px;
+    padding:10px 32px;
+    font-size:18px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight:500;
+}
+
+/* ================================ HERO SECTION ================================ */
+
+.hero {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.hero-heading-primary {
+    font-size:48px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #0F0F0F;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 100px;
+    line-height: 64px;
+    text-transform: capitalize;
+}
+
+.hero-heading-primary span {
+    border-bottom: 2px solid #0F0F0F;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.hero-content-lower img {
+    max-width: 940px;
+    width: 100%;
+}
+
+/* ================================ WORKS SECTION ================================ */
+
+.works {
+    margin:160px 0;
+}
+
+.works-heading {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 88px;
+}
+
+.works-heading-primary {
+    font-family: 'Outfit', sans-serif;
+    font-size: 90px;
+    padding-right: 48px;
+    font-weight: 500;
+    
+}
+
+.works-slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F6F6;
+    width: 90%;
+    margin: auto;
+    min-height: 500px;
+}
+
+.works-slide-left {
+    padding-left: 120px;
+    position: relative;
+    font-family: "Outfit", sans-serif;
+    width: 50%;
+}
+
+.works-slide-right {
+    width: 50%;
+}
+
+.works-slide-right-img {
+    width: 100%;
+}
+
+.works-slide-left h2 {
+    position: absolute;
+    top: -160px;
+    left: 10px;
+    font-size:250px;
+    color: #B5B5B5;
+    opacity: 08%;
+    padding-left: 120px;
+}
+
+.works-tags > * {
+    margin-right: 16px;
+}
+
+.works-tag {
+    font-size:18px;
+    color: #414141;
+}
+
+.slide-left-upper {
+    margin-bottom: 16px;
+}
+
+.slide-left-upper-heading {
+    font-size:56px;
+    font-weight: 500;
+}
+
+.slide-left-para {
+    font-size:20px;
+    color:#606060;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+/* ================================ PROCESS SECTION ================================ */
+
+.process {
+    margin:160px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
