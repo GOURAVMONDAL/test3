@@ -9,8 +9,8 @@
 body {
     background-color: #FCFCFC;
     color: #0F0F0F;
-    font-family: 'Montserrat', sans-serif;
-    /* font-family: 'Outfit', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Outfit', sans-serif;
 }
 
 .container {
@@ -355,6 +355,96 @@ a.contact-us {
     color: #606060;
 }
 
+/* ================================ TALK SECTION ================================ */
+
+.talk {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.talk-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    align-items: center;
+}
+
+.talk-heading-primary {
+    font-size:128px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.talk-heading-secondary {
+    font-size:24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #545454;
+}
+
+.get-in-touch {
+    text-decoration: none;
+    font-size:24px;
+    font-weight:400;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.get-in-touch svg {
+    width: 40px;
+    margin-left: 20px;
+}
+
+/* ================================ FOOTER ================================ */
+
+.footer {
+    background: #f2fafb;
+}
+
+.footer-content {
+    padding: 100px 0px;
+}
+
+.footer-copyright {
+    border-top: 1px solid #B5B5B5;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-left {
+    display: flex;
+    column-gap: 20px;
+}
+
+.copyright-left img {
+    width:48px;
+    height: 48px;
+}
+
+.copyright-right {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    font-size: 16px;
+}
+
+.copyright-right a {
+    border-right: 1px solid #B5B5B5;
+    padding-right: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+
+.copyright-right a:hover {
+    color: #1A6672;
+}
 
 
 
