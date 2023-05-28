@@ -11,12 +11,27 @@ body {
     color: #0F0F0F;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Outfit', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .container {
     max-width:1200px;
     padding:0 40px;
     margin:0 auto;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #1a667241;
+    
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #1A6672;
+    border-radius: 100px;
 }
 
 /* ================================ NAVBAR ================================ */
