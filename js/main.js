@@ -83,4 +83,12 @@ thirdSolution.addEventListener('mouseout', function() {
 })
 
 
+// custom cursor
 
+let cursor = document.querySelector("#cursor");
+let main = document.querySelector("#main");
+
+main.addEventListener('mousemove', function(event) {
+    cursor.style.left = event.x + 'px';
+    cursor.style.top = event.y + 'px';
+})

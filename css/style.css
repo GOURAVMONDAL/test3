@@ -9,9 +9,35 @@
 body {
     background-color: #FCFCFC;
     color: #0F0F0F;
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Outfit', sans-serif;
-    scroll-behavior: smooth;
+    width: 100%;
+    cursor: none;
+}
+
+#cursor {
+    width: 12px;
+    height: 12px;
+    background-color: #1A6672;
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    z-index: 99999999;
+}
+
+#cursor::before {
+    content:"";
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    background-color: rgba(26, 102, 114, 0.054);
 }
 
 .container {
@@ -363,6 +389,11 @@ a.contact-us {
    border-radius: 100%;
    left: 35%;
    cursor: pointer;
+}
+
+.solution-block.two,
+.solution-block.three {
+    cursor: pointer;
 }
 
 .solution-block.one:hover .rounded-border {
